@@ -1,0 +1,23 @@
+project:
+  type: book
+
+book:
+  title: "R Graphics Booklet"
+  author: "Mohammed Hamdy"
+  date: "11/19/2022"
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - summary.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+
+
